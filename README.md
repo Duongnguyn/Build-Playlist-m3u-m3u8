@@ -1,4 +1,4 @@
-# Create-Lists-m3u-m3u8 | Dynamic Playlist Manager | Web App
+# Build-Playlist-m3u-m3u8 | Dynamic Playlist Manager | Web App
 #### Author: Bocaletto Luca
 
 🚀 **Dynamic Playlist Manager Web App** is a PHP-based application that allows you to manage your media playlist easily. With this tool, you can:
