@@ -163,7 +163,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Dynamic Playlist Manager</title>
+  <title>Build-Playlist-m3u-m3u8 | Dynamic Playlist Manager | Web App | Bocaletto Luca</title>
+<meta name="description" content="Dynamic Playlist Manager Web App is a PHP-based tool that lets you easily manage your media playlists. Add, edit, delete items, import from JSON, and export in multiple formats, including .m3u, .m3u8, CSV, and SQL. Persistent data storage ensures seamless functionality. Developed by Bocaletto Luca.">
+<meta name="keywords" content="web app, playlist, media management, m3u, m3u8, CSV, SQL, JSON, PHP, dynamic playlist, Bocaletto Luca">
+<meta name="author" content="Bocaletto Luca">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap CSS from CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
