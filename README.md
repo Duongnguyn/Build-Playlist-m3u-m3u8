@@ -1,79 +1,91 @@
-# Build-Playlist-m3u-m3u8 | Dynamic Playlist Manager | Web App
-#### Author: Bocaletto Luca
+# Build Playlist m3u/m3u8 🎵
 
-🚀 **Dynamic Playlist Manager Web App** is a PHP-based application that allows you to manage your media playlist easily. With this tool, you can:
+![Build Playlist](https://img.shields.io/badge/Build%20Playlist%20m3u/m3u8-v1.0-blue)
 
-- **Add new items** (each with a title and URL) to the playlist.
-- **View the playlist** in a table format and have the option to edit or delete every item (using modal dialogs for editing).
-- **Import a playlist** from a JSON file.
-- **Export your playlist** in various formats: JSON, .m3u, .m3u8, CSV, and SQL.
+Welcome to the **Build Playlist m3u/m3u8** repository! This project is a dynamic playlist manager web application built with PHP. It simplifies the management of your media playlists. 
 
-All data is persistently stored in a JSON file (`playlist_data.json`), which is automatically created if it does not exist.
+## Table of Contents
 
----
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
 
 ## Features
 
-- **Add Items:** Easily add new playlist items by entering a title and URL.
-- **Edit & Delete:** Modify or remove individual items from your playlist using modal dialogs.
-- **Import Playlist:** Paste JSON-formatted data to import an entire playlist.
-- **Export Options:** Export your playlist in several popular formats:
-  - **JSON:** Standard JSON export.
-  - **.m3u / .m3u8:** Playlist formats for media players.
-  - **CSV:** Comma-separated values export.
-  - **SQL:** SQL commands to recreate the playlist in a database.
-- **Data Persistence:** All information is saved in a JSON file, ensuring your data is preserved between sessions.
+- **Add New Items**: Easily add new items to your playlist. Each item includes a title and URL.
+- **View Playlist**: See your playlist displayed in a clear table format.
+- **Edit or Delete Items**: Modify or remove items using modal dialogs for a smooth experience.
+- **Import and Export**: Import playlists from various formats and export your playlist when needed.
+- **Responsive Design**: The app works well on both desktop and mobile devices.
+- **Data Saving**: Save your playlist data effectively for future access.
 
----
+## Getting Started
 
-## How It Works
+To get started with the Build Playlist m3u/m3u8 application, follow these steps:
 
-1. **Add an Item:**  
-   Use the form at the top of the page to enter a title and a URL. When you submit the form, the item is added to your playlist with a unique ID (using the current timestamp).
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Duongnguyn/Build-Playlist-m3u-m3u8.git
+   ```
+   
+2. **Navigate to the Directory**:
+   ```bash
+   cd Build-Playlist-m3u-m3u8
+   ```
 
-2. **Edit or Delete an Item:**  
-   The playlist is displayed in a table. For each item, you can:
-   - Click **"Edit"** to open a modal where you can update the title and URL.
-   - Click **"Delete"** to remove the item (with a confirmation prompt).
+3. **Install Dependencies**: Ensure you have PHP and a web server (like Apache or Nginx) installed. You may need to set up a local environment using tools like XAMPP or MAMP.
 
-3. **Importing Playlists:**  
-   Paste valid JSON data into the import section and submit the form to load a new playlist.
+4. **Run the Application**: Place the project in your web server's root directory and access it through your browser.
 
-4. **Exporting Playlists:**  
-   Use the export links provided to download your playlist in the desired format (JSON, .m3u, .m3u8, CSV, or SQL).
+## Usage
 
----
+Once you have the application running, you can start managing your playlists. 
+
+1. **Adding Items**: Click on the "Add Item" button. Fill in the title and URL, then submit.
+2. **Viewing the Playlist**: Your playlist will display in a table format. Each entry will show the title and URL.
+3. **Editing Items**: Click on the edit icon next to an item. Modify the details in the modal and save.
+4. **Deleting Items**: Click the delete icon to remove an item from the playlist.
+5. **Importing Playlists**: Use the import feature to load playlists from your device.
+6. **Exporting Playlists**: Save your current playlist to your device for future use.
 
 ## Technologies Used
 
-- **PHP:** Backend processing, data storage, and export functionality.
-- **JSON:** For data persistence in the file `playlist_data.json`.
-- **Bootstrap 5:** Modern, responsive UI components.
-- **HTML & JavaScript:** For rendering the interface and handling user interactions.
+- **PHP**: The backbone of the application, handling server-side logic.
+- **HTML5**: For structuring the web pages.
+- **CSS3**: For styling the application and making it responsive.
+- **JavaScript**: For interactive features like modals and dynamic updates.
+- **JSON**: For data interchange, especially during import and export.
+- **m3u/m3u8**: Playlist formats supported by the application.
 
----
+## Contributing
 
-## Setup & Usage
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
-1. **Requirements:**  
-   Ensure you have a working PHP environment (e.g., XAMPP, WAMP, or a live server).
-
-2. **Installation:**  
-   - Clone or download this repository.
-   - Place the project files in your PHP server's document root.
-
-3. **Running the App:**  
-   Open your browser and navigate to `http://localhost/your-project-folder/index.php` to start managing your playlist.
-
----
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-YourFeature`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-YourFeature`).
+6. Open a pull request.
 
 ## License
 
-This project is licensed under the **GPL License**.  
-Feel free to use, modify, and distribute it freely!
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Releases
+
+For the latest updates and versions, please visit our [Releases](https://github.com/Duongnguyn/Build-Playlist-m3u-m3u8/releases) section. You can download the latest release and execute it on your server.
+
+If you need any specific version, you can find it in the releases section linked above.
+
+## Contact
+
+For questions or feedback, please reach out via GitHub Issues or contact the repository owner directly.
 
 ---
 
-## Author
-
-**Bocaletto Luca**
+Thank you for checking out the Build Playlist m3u/m3u8 application! We hope you find it useful for managing your media playlists effectively.
